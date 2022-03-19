@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+div {
+    background-color: darkgray;
+    border: 0;
+    height: 100vh;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    width: 100vw;
+}
+
+/*On a static webpage, elements should be sized using height and width.
+Best to leave all elements as static for robustness.*/
+header {
+    background-color: gray;
+    box-sizing: border-box;
+    border: 0;
+    height: 15vh;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}
+
+article {
+    background-color: white;
+    box-sizing: border-box;
+    height: 90vh;
+    margin: auto;
+    width: 75vw;
+}
+
+footer {
+    background-color: black;
+    box-sizing: border-box;
+    height: 10vh;
+    margin: auto;
+    width: 75vw;
+}
