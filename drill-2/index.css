@@ -1,0 +1,47 @@
+.first-container {
+    align-items: flex-end;
+    border: 5px solid black;
+    display: flex;
+    height: 25vh;
+    justify-content: flex-start;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 95vw;
+}
+
+.flexbox-item {
+    margin: 30px;
+}
+
+.flexbox-item-1 {
+    background-color: plum;
+    height: 15vh;
+    width: 7vw; 
+}
+
+.flexbox-item-2 {
+    background-color: green;
+    height: 20vh;
+    width: 35vw; 
+}
+
+.flexbox-item-3 {
+    background-color: aqua;
+    border-radius: 50%;
+    height: 20vh;
+    width: 20vh;
+}
+
+.second-container {
+    border: 5px dotted black;
+    height: 30vh;
+    margin: auto;
+    width: 95vw;
+}
+
+.third-container {
+    border: 5px black;
+    height: 30vh;
+    margin: auto;
+    width: 95vh;
+}
