@@ -1,17 +1,17 @@
-.first-container {
+.first-flexbox {
     align-items: flex-end;
     border: 5px solid black;
     display: flex;
-    height: 25vh;
+    height: 30vh;
     justify-content: flex-start;
     margin: auto;
     margin-bottom: 10px;
     width: 95vw;
 }
 
-.flexbox-item {
+/* .flexbox-item {
     margin: 30px;
-}
+} */
 
 .flexbox-item-1 {
     background-color: plum;
@@ -32,16 +32,31 @@
     width: 20vh;
 }
 
-.second-container {
+.second-flexbox {
+    align-items: center;
     border: 5px dotted black;
+    display: flex;
     height: 30vh;
+    justify-content: center;
     margin: auto;
+    margin-bottom: 10px;
     width: 95vw;
 }
 
-.third-container {
-    border: 5px black;
+.flexbox-item-4 {
+    background-color: antiquewhite;
+    box-shadow: 8px 8px 5px;
+    height: 20vh;
+    width: 90vw;
+}
+
+.third-flexbox {
+    align-items: center;
+    /* border: 5px solid black; */
+    box-shadow: 5px 5px 5px gray;
+    display: flex;
     height: 30vh;
+    justify-content: center;
     margin: auto;
-    width: 95vh;
+    width: 50vw;
 }
